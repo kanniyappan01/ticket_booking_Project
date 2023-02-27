@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.seat-available{
+    background: url(https://cdn11.ticketnew.com/images/available.png) no-repeat;
+    background-size:24px ;
+}
+.seat-active{
+    background: url(https://cdn11.ticketnew.com/images/selected.png) no-repeat;
+    background-size:24px ;
+}
+.seat-taken{
+    background: url(https://cdn11.ticketnew.com/images/taken.png) no-repeat;
+    background-size:24px ;
+}
+.seat-inactive{
+    background: url(https://cdn11.ticketnew.com/images/social-distancing-user-red-gray-icon.png) no-repeat;
+    background-size: 24px;
+}
+.seats{
+    display: inline-block;
+    min-width: 15px;
+    min-height: 15px;
+    padding: 0.8rem;
+    margin: 0.4rem;
+    color: #757575;
+    cursor: pointer;
+}
+.seat_container{
+    height: 80vh;
+    overflow-y: auto;
+}
+.seat_container h5{
+    color: #f44336;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.batch_title{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+.row_title{
+    display: inline-block;
+    margin-right: 2.5rem;
+    width: 30px;
+}
+.screen_wraper{
+    padding: 0.5rem 0;
+    border: 1px solid #ccc;
+}
+.screen_wraper span{
+    display: block;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.seat_detials{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    margin: 0.9rem 0;
+}
+.seat_detials span{
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+
+}
+
+/* scroll bar  */
+
+.yt-scrolbar::-webkit-scrollbar{
+    width: 10px;
+}
+.yt-scrolbar::-webkit-scrollbar-thumb{
+    background-color: transparent;
+    border-radius:10px;
+}
+.yt-scrolbar::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+.yt-scrolbar::-webkit-scrollbar-thumb:hover{
+    background-color: #706b6ba6;
+}
